@@ -9,7 +9,7 @@
     let noteList = new NotesList();
     let noteController = new NoteController(noteList);
 
-    assert.isTrue(noteList.notes[0] === 'Favourite drink: Seltzer');
+    assert.isTrue(noteList.notes[0].text === 'Favourite drink: Seltzer');
   }
 
   function testInnerHTMLChange() {
